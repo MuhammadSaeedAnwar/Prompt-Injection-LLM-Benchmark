@@ -136,19 +136,30 @@ Key findings:
 ```
 Prompt-Injection-LLM-Benchmark/
 ├── README.md
-├── LICENSE
 ├── CITATION.cff
-├── prompt_injection_dataset_250.csv
-├── paper/
-│   └── AISEC_2026_paper_33.pdf
+├── CHANGELOG.md
+├── SECURITY.md
+├── My Research Paper.pdf            # accepted AISec 2026 manuscript
+├── prompt_injection_dataset_250.csv # full dataset (250 samples)
 ├── data/
-│   └── public_sample_25.csv
-├── docs/
-│   └── SCHEMA.md
+│   ├── public_sample_25.csv
+│   └── schema.md
+├── schema/
+│   └── annotation_rubric.md
+├── configs/                         # default, model and evaluation configs (YAML)
+├── src/                             # data loading, model adapters, evaluation, utils
 ├── scripts/
-│   └── (evaluation and annotation scripts as used for the paper)
+│   ├── validate_dataset.py
+│   ├── evaluate.py
+│   ├── generate_statistics.py
+│   ├── reproduce_paper.py
+│   └── run_all.py
+├── docs/                            # installation, usage, threat model, reproducibility
+├── pyproject.toml
 └── requirements.txt
 ```
+
+See [docs/usage.md](docs/usage.md) and [docs/reproducibility_guide.md](docs/reproducibility_guide.md) for how to run the scripts.
 
 ---
 
