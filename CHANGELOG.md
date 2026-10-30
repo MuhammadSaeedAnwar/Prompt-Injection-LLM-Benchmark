@@ -8,7 +8,6 @@ All notable changes to this project will be documented in this file.
 - Initial release of Prompt Injection LLM Benchmark
 - Dataset: 250 prompt injection attack samples
 - 5 attack categories with 14 subcategories
-- 14 languages supported
 - Support for 11 LLM systems
 - Comprehensive evaluation pipeline
 - Statistical analysis and metrics computation

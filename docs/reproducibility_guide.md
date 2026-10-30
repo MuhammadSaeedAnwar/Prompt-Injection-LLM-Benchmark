@@ -33,7 +33,6 @@ python scripts/validate_dataset.py \
 ✓ Dataset validation PASSED
   Total samples: 250
   Categories: 5
-  Languages: 14
   Systems: 11
 ```
 

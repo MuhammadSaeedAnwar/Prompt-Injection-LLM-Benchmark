@@ -29,7 +29,6 @@ python scripts/validate_dataset.py --dataset dataset/prompt_injection_dataset_25
 ✓ Dataset validation PASSED
   Total samples: 250
   Categories: 5
-  Languages: 14
   Systems: 11
 ```
 

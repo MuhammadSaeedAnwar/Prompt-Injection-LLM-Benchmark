@@ -38,7 +38,6 @@ keywords:
   - llm-security
   - benchmark
   - nlp
-  - multilingual
 license: MIT
 repository-code: https://github.com/MuhammadSaeedAnwar/Prompt-Injection-LLM-Benchmark
 repository: https://zenodo.org/records/19364462

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "prompt-injection-benchmark"
 version = "1.0.0"
-description = "Comprehensive multilingual prompt injection attack benchmark for evaluating LLM robustness"
+description = "Prompt injection attack benchmark for evaluating LLM robustness"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -16,8 +16,7 @@ keywords = [
     "adversarial-attacks",
     "llm-security",
     "benchmark",
-    "nlp",
-    "multilingual"
+    "nlp"
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",

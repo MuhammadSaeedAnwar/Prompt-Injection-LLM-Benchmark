@@ -54,7 +54,6 @@ python scripts/validate_dataset.py --dataset dataset/prompt_injection_dataset_25
 ✓ Dataset validation PASSED
   Total samples: 250
   Categories: 5
-  Languages: 14
   Systems: 11
 ```
 
@@ -110,7 +109,7 @@ cat results/metrics/metrics.json
 
 ## Claims Verification
 
-### Claim 1: "250 prompt injection samples across 5 categories and 14 languages"
+### Claim 1: "250 prompt injection samples across 5 categories"
 
 ```bash
 python -c "
@@ -123,7 +122,7 @@ print(f'Languages: {stats[\"unique_languages\"]}')
 "
 ```
 
-✓ **Expected**: 250 samples, 5 categories, 14 languages
+✓ **Expected**: 250 samples, 5 categories
 
 ### Claim 2: "Evaluates 11 LLM systems"
 
@@ -186,7 +185,6 @@ diff results_run1/metrics/metrics.json results_run2/metrics/metrics.json
 - [ ] Dataset validation passes
 - [ ] 250 samples verified
 - [ ] 5 categories verified
-- [ ] 14 languages verified
 - [ ] Statistics generated successfully
 - [ ] Pipeline executes successfully
 - [ ] Metrics computed and exported

@@ -4,7 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MuhammadSaeedAnwar/Prompt-Injection-LLM-Benchmark/blob/main/LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![Dataset: 250 Samples](https://img.shields.io/badge/Dataset-250%20Samples-green.svg)](./prompt_injection_dataset_250.csv)
-[![Languages: 14](https://img.shields.io/badge/Languages-14-blue.svg)](#dataset-description)
 [![Models: 5](https://img.shields.io/badge/Models-5-blue.svg)](#models-evaluated)
 [![Published: AISec 2026](https://img.shields.io/badge/Published-AISec%202026-brightgreen.svg)](#citation)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.19364462-blue.svg)](https://doi.org/10.5281/zenodo.19364462)
@@ -18,7 +17,7 @@
 This repository contains the dataset, evaluation code, and paper for a systematic empirical study of prompt injection attacks against large language models. It accompanies the paper of the same title, accepted at AISec 2026.
 
 **What this repository actually contains:**
-- A hand-annotated benchmark of **250 prompt injection attack samples** across **5 attack categories**, **14 languages**, and **3 complexity levels**
+- A hand-annotated benchmark of **250 prompt injection attack samples** across **5 attack categories** and **3 complexity levels** (236 of 250 samples are in English)
 - Empirical Attack Success Rate (ASR) measurements for **5 production-grade LLMs**, evaluated January–April 2024
 - A five-category attack taxonomy grounded in real-world incidents and academic literature
 - Six identified open research gaps in LLM security evaluation and defense
@@ -64,7 +63,7 @@ Five categories, matching Table I of the paper exactly:
 | `prompt_text` | Full attack prompt |
 | `target_behavior` | The specific model behavior that would count as a successful attack |
 | `complexity` | Simple / Intermediate / Advanced |
-| `language` | One of 14 languages |
+| `language` | Prompt language (236 of 250 samples are English) |
 
 Sources: public adversarial prompt repositories (JailbreakChat, AwesomeChatGPT-Prompts, r/ChatGPTJailbreak), prompts described in published security papers, manually crafted prompts targeting recurring weaknesses, and template-generated samples (~15–20% of the dataset) to fill coverage gaps.
 
