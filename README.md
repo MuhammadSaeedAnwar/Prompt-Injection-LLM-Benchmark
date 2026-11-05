@@ -5,16 +5,16 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![Dataset: 250 Samples](https://img.shields.io/badge/Dataset-250%20Samples-green.svg)](./prompt_injection_dataset_250.csv)
 [![Models: 5](https://img.shields.io/badge/Models-5-blue.svg)](#models-evaluated)
-[![Published: AISec 2026](https://img.shields.io/badge/Published-AISec%202026-brightgreen.svg)](#citation)
+[![Accepted: AISEC 2026](https://img.shields.io/badge/Accepted-AISEC%202026-brightgreen.svg)](#citation)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.19364462-blue.svg)](https://doi.org/10.5281/zenodo.19364462)
 
-**Accepted at AISec 2026 (International Workshop on Security for AI Systems and AI for Systems Security).**
+**Accepted at AISEC 2026, the International Conference on Artificial Intelligence & Cybersecurity (Marrakech, Morocco, 15–17 May 2026). Paper ID 33.**
 
 ---
 
 ## Overview
 
-This repository contains the dataset, evaluation code, and paper for a systematic empirical study of prompt injection attacks against large language models. It accompanies the paper of the same title, accepted at AISec 2026.
+This repository contains the dataset, evaluation code, and paper for a systematic empirical study of prompt injection attacks against large language models. It accompanies the paper of the same title, accepted at AISEC 2026 (International Conference on Artificial Intelligence & Cybersecurity).
 
 **What this repository actually contains:**
 - A hand-annotated benchmark of **250 prompt injection attack samples** across **5 attack categories** and **3 complexity levels** (236 of 250 samples are in English)
@@ -138,7 +138,7 @@ Prompt-Injection-LLM-Benchmark/
 ├── CITATION.cff
 ├── CHANGELOG.md
 ├── SECURITY.md
-├── My Research Paper.pdf            # accepted AISec 2026 manuscript
+├── My Research Paper.pdf            # accepted AISEC 2026 manuscript
 ├── prompt_injection_dataset_250.csv # full dataset (250 samples)
 ├── data/
 │   ├── public_sample_25.csv
@@ -178,7 +178,8 @@ pip install -r requirements.txt
 @inproceedings{anwar2026promptinjection,
   title     = {Prompt Injection Attacks in Large Language Models: Comprehensive Threat Analysis, Empirical Dataset Construction, and Critical Mitigation Gaps},
   author    = {Anwar, Muhammad Saeed},
-  booktitle = {Proceedings of the AISec 2026 Workshop on Security for AI Systems and AI for Systems Security},
+  booktitle = {International Conference on Artificial Intelligence \& Cybersecurity (AISEC 2026)},
+  address   = {Marrakech, Morocco},
   year      = {2026}
 }
 ```
